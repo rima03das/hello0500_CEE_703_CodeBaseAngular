@@ -1,0 +1,26 @@
+{
+    "defaultStep": "59586",
+    "isSingleCondition": false,
+    "singleApiKey": false,
+    "multipleErrorMessage": true,
+    "defaultLang": "",
+    "API_TYPE": "INTERNAL",
+    "tableHiddenGeneric": false,
+    "messageTimeOut": 5000,
+    "google_sitekey": "<<googleSitekey>>",
+    "navigateStepName": true,
+    "navigateStepNameOnly": true,
+    "customErrorSteps": [],
+    "BASE_URL": "<<backendBaseUrl>>",
+    "OIDC_LOGOUT_HANDLER": "/authservice/session/logout",
+    "OIDC_REFRESH_ACCESS_TOKEN_HANDLER": "",
+    "OIDC": true,
+    "SKIP_JSON_LOADER": true,
+    "oidc_config": {
+        "domain": "https://dt-keycloak.inadev.net/auth/realms/ceebit",
+        "clientId": "ceebit-portal",
+        "clientKey": "WtHnchTqUgMPyykBj57ekoY1B7TDa8ew",
+        "redirectUri": "http://localhost:4200/login-step",
+        "userInfoHandler": "userinfo"
+    }
+}
